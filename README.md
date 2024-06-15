@@ -1,6 +1,6 @@
 # MIDI Event Driven Animation in Godot
 
-![Banner](path_to_your_banner.gif)
+![Banner](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGcxYmxqbmtucXZmaHRzb3Rub2I5OWhyZnYxOWVpbjJmZ2U4bHhsZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gLFPw2YnQf09kCm6tP/giphy.gif)
 
 ## Overview
 
