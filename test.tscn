@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://8x343tjkoww6"]
+[gd_scene load_steps=6 format=3 uid="uid://8x343tjkoww6"]
 
 [ext_resource type="Script" path="res://test.gd" id="1_381ba"]
 [ext_resource type="PackedScene" uid="uid://bdvkdv77fslji" path="res://addons/midi/ADSR.tscn" id="2_scovv"]
+[ext_resource type="AudioStream" uid="uid://btgix0tasit0q" path="res://tetris.mp3" id="3_i3yx1"]
 [ext_resource type="PackedScene" uid="uid://cuyd1qv0pn26e" path="res://addons/midi/MidiPlayer.tscn" id="3_u6lbu"]
 [ext_resource type="Texture2D" uid="uid://bes1e76cqr5q" path="res://icon.svg" id="4_sh1yf"]
 
@@ -9,10 +10,12 @@
 script = ExtResource("1_381ba")
 
 [node name="ADSR" parent="." instance=ExtResource("2_scovv")]
+stream = ExtResource("3_i3yx1")
 
 [node name="MIDIPlayer" parent="." instance=ExtResource("3_u6lbu")]
 file = "res://tetris.mid"
 playing = true
+volume_db = -5.586
 
 [node name="Icon" type="Sprite2D" parent="."]
 position = Vector2(280, 294)
